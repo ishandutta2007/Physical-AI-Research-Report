@@ -47,6 +47,21 @@ The cleanest way to think about the sector is as a stack:
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
+Stack Diagram
+
+```mermaid
+flowchart TD
+    A[Robot Services Companies] --> B[Robot Product Companies]
+    B --> C[Software]
+    B --> D[Hardware]
+    D --> E[Electronics]
+    D --> F[Mechatonics]
+    D --> G[Batteries]
+    E --> H[Entire Chip Stack]
+    F --> I[Entire Motors/Actuators Stack]
+    G --> J[Entire Batteries Stack]
+```
+
 ### The central thesis
 
 The sector is moving from **automation of fixed tasks** to **automation of variable physical work**.
